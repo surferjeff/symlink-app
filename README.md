@@ -2,6 +2,10 @@
 
 This scripts packs executables and dynamic libraries into a Mac OS application bundle.
 
+It's conforms to the rules defined in 
+[Apple TechNote 2206](https://developer.apple.com/library/archive/technotes/tn2206/_index.html)
+and was derived from this [discussion](https://developer.apple.com/forums/thread/655881).
+
 How to use:
 
 1.  Copy your files into the `/Contents/Resources` directory of your app.  Create
